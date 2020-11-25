@@ -3,3 +3,113 @@
   box-sizing:border-box;  
 }
 
+/***** BODY *****/
+
+body {
+    margin: 0;
+    font-family: Helvetica Neue, sans-serif;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+
+/***** MAIN *****/
+
+/***** UPPER SECTION *****/
+
+/* de sectie omzetten naar een kolom d.m.v. flex, zodat het ook past */
+.Bovenste-sectie{
+    display: flex;
+    flex-direction: column;
+}
+
+/* de breedte het a element bepalen*/
+.Bovenste-sectie a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.Bovenste-sectie article {
+    height: 100%;
+    position: relative;
+    background-position: center;
+    transition: ease 2s;
+}
+
+.Bovenste-sectie article .img-top-article {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    /*z-index: 1;*/
+}
+
+.Bovenste-sectie article .img-top-article img {
+    width: 100%;
+    object-fit: cover;
+    object-position: bottom;
+    transition: ease 1s;
+}
+
+/* afbeelding met 1,05 laten vergroten op hover */
+.Bovenste-sectie article:hover .img-top-article img {
+    transform: scale(1.05);
+   
+}
+
+/* tekst van de hoofdartikelen aanpassen, de groote schaalt mee de kleur is wit en een kleine shadowzodat het ook leesbaar is op een witte achtergrond*/
+h2{
+    font-size: 4vw;
+    color: white;
+    text-shadow: 0.1vw 0.1vw #000000
+}
+
+/* tekst voor de afbeelding zetten dmv "absolute" en margin meegeven top en bottom links en rechts zijn 1em*/
+.heading-top-article {
+    position: absolute;
+    bottom: 0;
+    margin: 1em;
+    z-index: 2;
+}
+
+/***** MIDDLE SECTION *****/
+
+.middle-section{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-left: 1em;
+    padding-right: 1em;
+    
+}
+
+.middle-section article {
+    display: block;
+    border-bottom: 1px solid lightgray;
+    margin-top: 1em;
+    padding-bottom: 1em;
+}
+
+.middle-section a {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.middle-section article .img-articles img {
+    width: 30vw;
+    margin-right: 1em;
+    /*z-index: 1;*/
+    
+}
+
+h3{
+    font-size: 4vw;
+    font-weight: 400;
+    color: black;
+    /*margin: 1em;*/
+    margin-top: 0;
+}
