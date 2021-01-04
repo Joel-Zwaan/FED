@@ -8,7 +8,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Bronnenlijst
 1. https://www.w3schools.com/
 2. https://stackoverflow.com/
-3. -...-
+3. youtube.com
 
 
 
@@ -27,18 +27,16 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 -same as voortgang 1-
 
 
-
-## Voortgang 2 (week 5)
-
--same as voortgang 1-
-
-
-
 ## Voortgang 1 (week 3)
 
 ### Stand van zaken
 
 -dit ging goed & dit was lastig-
+divje weghalen en stylen op element zelf
+
+in plaats van classes type selectoren
+
+em / vw /vh in plaats van px */
 
 **Screenshot(s):**
 
@@ -64,6 +62,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -uitwerken voor de 1e werkgroep - eind van de eerste week-
 
+<img src="images/breakdownschets.png" alt="NOS homepagina">
 
 
 ## Intake (week 1)
@@ -77,8 +76,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s) van de eerste pagina (small screen):**
 
-<img src="images/Schermafbeelding 2020-11-09 om 09.41.08" width="375px" alt="NOS homepagina">
+NOS-pagina1.png
 
 **Screenshot(s) van de tweede pagina (small screen):**
 
-<img src="images/Schermafbeelding 2020-11-09 om 09.42.06" width="375px" alt="NOS artikel">
+NOS-pagina2.png
