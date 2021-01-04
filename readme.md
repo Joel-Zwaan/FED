@@ -9,7 +9,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 2. https://stackoverflow.com/
 3. https://youtube.com/
 4. https://css-tricks.com/
-5. Danny de Vries :)
+5. Danny de Vries 
 
 ## Eindgesprek (week 7/8)
 

@@ -5,6 +5,7 @@
 
 /***** BODY *****/
 
+    /* standaard waarden voor de body zoals geen margin en het font aanroepen */
 body {
     margin: 0;
     font-family: Helvetica Neue, sans-serif;
@@ -17,6 +18,8 @@ a {
 
 
 /***** HEADER *****/
+
+    /* header vormgeven*/
 header{
     display: flex;
     height: 4em;
@@ -25,18 +28,21 @@ header{
     border-bottom:  1px lightgray solid;
 }
 
+    /* geen blauwe lijn om de button afbeelding*/
 header button{
     background: none; 
     border: none;
 }
 
+    /* als er op de button is geklikt geen uitline weergeven*/
 header button:focus {outline:0;}
-
+ 
+    /* de maat en de margin van de button image aangeven*/
 header button img{
     height: 2em;
     margin-left: 1em
 }
-    
+    /* de maat en de margin van de button image aangeven*/
 header a{
     display: block;
     height: 1.8em;
@@ -49,24 +55,28 @@ header a img{
 
 /***** NAV *****/
 
+/* navigatie verbergen*/
 nav{
     overflow: hidden;
     height:0 ;
 }
 
+/* navigatie tonen als er op het icoon wordt geklikt*/
 .toon-menu {
     height: 30%;
 }
 
+/* geen stijl aan de lijst*/
 nav ul li {
     list-style: none;
     padding: 1em;
 }
 
+/* zwarte kleur*/
 nav ul li a{
     color: black;
 }
-
+    /* navigatie van grotere schermgrootes niet tonen*/
 .top-nav{
     display: none;
 }
@@ -76,43 +86,40 @@ nav ul li a{
 
 /***** UPPER SECTION *****/
 
-/* de sectie omzetten naar een kolom d.m.v. flex, zodat het ook past */
-.Bovenste-sectie{
+        /* de sectie omzetten naar een kolom d.m.v. flex, zodat het ook past */
+.top-section{
     display: flex;
     flex-direction: column;
 }
 
 /* de breedte het a element bepalen*/
-.Bovenste-sectie a {
+.top-section a {
     display: block;
     width: 100%;
     height: 100%;
 }
-
-.Bovenste-sectie article {
-    /*background-image: linear-gradient(to bottom, transparent, rgba(200,0,0,1));*/
+    /* absolute zodat de teks er overheen gaat & overflow zodat de afbeelding niet groter wordt*/
+.top-section article {
     height: 100%;
     position: relative;
-    background-position: center;
     overflow: hidden;
 }
 
-
-.Bovenste-sectie article img {
+    /* de afbeeldingen de juiste groote meegeven en een transitie van 1sec meegeven bij hover*/
+.top-section article img {
     height: 100%;
     width: 100%;
     object-fit: cover;
     transition: ease 1s;
-    /*z-index: 1;*/
 }
 
-/* afbeelding met 1,05 laten vergroten op hover */
-.Bovenste-sectie article img:hover{
+    /* afbeelding met 1,05 laten vergroten op hover */
+.top-section article img:hover{
     transform: scale(1.02);
    
 }
 
-/* tekst van de hoofdartikelen aanpassen, de groote schaalt mee de kleur is wit en een kleine shadowzodat het ook leesbaar is op een witte achtergrond*/
+    /* tekst van de hoofdartikelen aanpassen, de groote schaalt mee de kleur is wit en een kleine shadowzodat het ook leesbaar is op een witte achtergrond*/
 h2{
     font-size: 4vw;
     color: white;
@@ -127,6 +134,7 @@ h2{
 
 /***** MIDDLE SECTION *****/
 
+     /* margin en padding meegeven*/
 .middle-section{
     margin-top: 1em;
     margin-bottom: 1em;
@@ -134,7 +142,7 @@ h2{
     padding-right: 1em;
     
 }
-
+    /* border toevoegen */
 .middle-section article {
     display: block;
     border-bottom: 1px solid lightgray;
@@ -142,33 +150,33 @@ h2{
     padding-bottom: 1em;
     overflow: hidden;
 }
-
+    /* flex zodat het naast elkaar staat*/
 .middle-section a {
     display: flex;
     width: 100%;
     
 }
-
+    /* groote bepalen dmv vw en transition van 1sec toevoegen*/
 .middle-section article img {
     display: block;
     width: 30vw;
     margin-right: 1em;
-    /*z-index: 1;*/
     transition: ease 1s;
     }
-
+    
+    /* afbeelding met 5% vergroten op hover*/
 .middle-section article img:hover{
     transform: scale(1.05);
 }
-
+    
+    /* font groote en dikte meegeven en zorgen dat hij boven staat dmv margin 0*/
 h3{
     font-size: 4vw;
     font-weight: 400;
     color: black;
-    /*margin: 1em;*/
     margin-top: 0;
 }
-
+    /* p niet weergeven op small screen*/
 .middle-section article p{
     display: none;
 }
@@ -176,6 +184,7 @@ h3{
 
 /***** FOOTER *****/
 
+    /*achtergrondkleur meegeven en margin, padding en een border eromheen.*/
 footer{
     background-color: #f6f6f6;
     margin-top: 1em;
@@ -183,40 +192,41 @@ footer{
     border-top: 1px solid lightgray;
     
 }
-
+    /* afb in footer stijlen*/
 footer a img{
     height: 2em;
     margin-bottom: 1em;
 }
-
+    /* geen margin en padding meegeven zodat ze links en boven staan*/
 footer ul{
     margin: 0;
     padding: 0;
 }
-
+    
+    /* geen stijl aan de lijst meegeven en font groote bepalen*/
 footer ul li{
     list-style: none;
     font-size: 0.8em;
 }
-
+    /* block meegeven zodat ik ze op padding kan stijlen en tekst zwarte kleur maken */
 footer ul li a{
     color: black;
     display: block;
     padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    
+    padding-bottom: 0.5em;   
 }
-
+    /* op hover wordt de tekst rood*/
 footer ul li a:hover{
     color: red;
 }
 
+    /* border in de footer en een margin van 1em boven*/
 footer section{
     border-top: 1px solid lightgray;
     margin-top: 1em;
-    
 }
 
+    /* block zodat margin werkt en kleur van tekst grijs maken*/
 footer section a{
     display: block;
     color: gray;
@@ -224,6 +234,7 @@ footer section a{
     font-size: 0.9em;
 }
 
+    /* grijze kleur en groote van 0.8em*/
 footer section p{
     color: gray;
     font-size: 0.8em;
@@ -232,20 +243,25 @@ footer section p{
 
 /***** ARTIKEL *****/
 
+
+    /* onderse afbeelding niet tonen*/
 .img-artikel{
     display: none;  
 }
 
+    /* bovenste afbeelding stijlen*/
 .img-artikel-bovenste{
     height: 46vh;
     width: 100%;
     object-fit: cover;
 }
 
+    /* padding om hele artikel van 1em */
 .artikel{
     padding: 1em;
 }
-
+    
+    /* alled grote letters*/
 .artikel ul{
     list-style: none;
     padding: 0em;
@@ -255,44 +271,35 @@ footer section p{
     font-weight: 800;
     }
 
+    /* naast elkaar zetten*/
 .artikel ul li{
     display: inline-block;
     vertical-align: top;
 }
-
+    
+    /* grijze kleur maken*/
 .artikel ul li a{
     color: gray;
 }
 
+    /* rood op hover*/
 .artikel ul li a:hover{
     color: red;
 }
-
+    /* groote van titel*/
 .artikel h1{
     font-size: 1.5em;
     line-height: 1.3em;
 }
-
+    
+    /* tekst van artikel opmaken*/
 .artikel p{
     display: block;
-    font-size: 1em;
     line-height: 1.7em;
     padding-top: 2em;
 }
 
-.artikel article{
-    display: flex;
-}
-
-.artikel article img{
-    height: 2em;
-}
-
-.img-artikel{
-    display: none;
-}
-
-
+ /******* MEDIA QUERIES ****/
 
 @media (min-width: 600px){
     
@@ -306,6 +313,8 @@ footer section p{
         margin-left: 3em;
     }
     
+    
+    /* nav in header laten zien op grote schermen */
     .top-nav{
         display: flex;
         height: 100%;
@@ -332,7 +341,7 @@ footer section p{
     
     .top-nav ul li a{
         display: block;
-        color: dimgray;
+        color: black;
         border-left: 1px lightgray solid;
         padding: 0;
         padding-left: 1.2em;
@@ -350,13 +359,13 @@ footer section p{
         text-decoration: underline red solid;
     }
     
-    
+        /* hamburger icoon niet laten zien*/
     header button{
         display: none;
     }
      /******* bovenste sectie MEDIA 600px *****/
     
-    .Bovenste-sectie{
+    .top-section{
         display: flex;
         flex-direction: row;
         height: 35vh;    
@@ -373,6 +382,7 @@ footer section p{
     
     /******* middelste sectie MEDIA 600px *****/
 
+        /* omzetten naar grid in 2 kolommen van 35vw*/
     .middle-section{
         display: grid;
         grid-template-columns: 35vw 35vw;
@@ -427,41 +437,18 @@ footer section p{
     
     .img-artikel{
         display: block;
-        height: 40%;
+        height: 50%;
         width: 650px;
         object-fit: cover;
         margin: auto;
     }
-
-    
-    .artikel{
-        display: block;
-         
-    }
     
     .artikel ul{
-        list-style: none;
-        margin: 1em;
         text-align: center;
-        text-transform: uppercase;
         font-size: 0.7em;
-        font-weight: 800;
         margin-right: 130px;
     }
 
-    .artikel ul li{
-        display: inline-block;
-        vertical-align: top;
-}
-
-    .artikel ul li a{
-        color: gray;
-}    
-
-    .artikel ul li a:hover{
-        color: red;
-    }
-    
     .artikel h1{
         margin: auto;
         width: 550px;
@@ -482,7 +469,7 @@ footer section p{
     
     /******* bovenste sectie MEDIA 900px *****/
     
-    .Bovenste-sectie{
+    .top-section{
         height: 55vh;    
 }
     
@@ -492,6 +479,7 @@ footer section p{
 }
     /******* middelste sectie MEDIA 900px *****/
 
+        /* omzetten naar grid in 3 kolommen van 25vw*/
     .middle-section{
         grid-template-columns: 25vw 25vw 25vw;
         margin-left: 6em;

@@ -8,6 +8,7 @@ menuButton.addEventListener('click', toonMenu)
 function toonMenu() {
     nav.classList.toggle('toon-menu');
 }
+
 var image_tracker = 'H'
 function change(){
     var image = document.getElementById('menu')
