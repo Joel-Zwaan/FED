@@ -4,13 +4,12 @@
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
 
 
-
 ## Bronnenlijst
 1. https://www.w3schools.com/
 2. https://stackoverflow.com/
-3. youtube.com
-
-
+3. https://youtube.com/
+4. https://css-tricks.com/
+5. Danny de Vries :)
 
 ## Eindgesprek (week 7/8)
 
@@ -21,10 +20,41 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 -screenshot(s) van je eindresultaat-
 
 
-
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+-dit ging goed & dit was lastig-
+
+Ik heb de detail pagina voorzien van content en uitgewerkt op small-screen
+Proberen om de classes weg te werken door middel van nth.
+
+de pagina's responsive maken en de micro interactie uitbreiden door een kruisje te laten zien als je het menu open maakt op small screen
+
+<img src="images/NOS-Pagina1-menu.png">
+<img src="images/NOS_navigatie.png">
+<img src="images/NOS-Pagina1-footer.png">
+<img src="images/NOS_detail1.png">
+<img src="images/NOS_detail2.png">
+
+### Agenda voor meeting
+
+-samen met je groepje opstellen-
+
+Ik had een aantal vragen vooraf opgesteld:
+1. 30% werkt op ene pagina wel bij menu en op andere niet hoe kan dat?
+2. is het button element goed zoals ik het heb gebruikt?
+3. is de micro interactie zo voldoende?
+4. Hoe pak ik de classes aan?
+5. De margin werkt niet op een element in de footer hoe kan dat?
+
+### Verslag van meeting
+
+-na afloop snel uitkomsten vastleggen-
+
+1. Gewoon 30% gebruiken als het op beide pagina's lukt.
+2. ja het button element is zo goed.
+3. Iets uitgebreider bijvoorbeeld het hamburger icoon laten veranderen in een kruisje.
+4. nth gebruiken
+5. het element display block mee geven.
 
 
 ## Voortgang 1 (week 3)
@@ -32,37 +62,35 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ### Stand van zaken
 
 -dit ging goed & dit was lastig-
-divje weghalen en stylen op element zelf
 
-in plaats van classes type selectoren
+Ik heb de content toegevoegd, maar maakte hier veel gebruik van divjes dus die moet ik weghalen en stylen op het element zelf en samenvoegen.
+Ik maakte al veel gebruik van vh, vw en em, maar ik moet de overige px ook nog weg halen.
 
-em / vw /vh in plaats van px */
-
+Beginnen met de navigatie en footer maken. Ook de detail pagina moet worden aangemaakt en content aan worden toegevoegd.
 **Screenshot(s):**
 
--screenshot(s) van hoe ver je bent met korte uitleg-
+Hij ziet er redelijk goed uit op small screen en komt overeen met de stijl van de NOS. Er is nog geen navigatie en footer.
+
+<img src="images/NOS-Voortgang1.png">
 
 ### Agenda voor meeting
 
 -samen met je groepje opstellen-
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| an dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+Laten zien waar ik nu sta en de vragen van medestudenten bijwonen om te kijken of ik daar informatie uit kan halen.
 
 ### Verslag van meeting
 
 -na afloop snel uitkomsten vastleggen-
 
+Flinke stappen gaan zetten, zodat ik geen tijd te kort kom en beginnen met de navgatie toevoegen en de footer.
 
 
 ## Breakdownschets (week 1)
 
 -uitwerken voor de 1e werkgroep - eind van de eerste week-
 
-<img src="images/breakdownschets.png" alt="NOS homepagina">
+<img src="images/breakdownschets.png">
 
 
 ## Intake (week 1)

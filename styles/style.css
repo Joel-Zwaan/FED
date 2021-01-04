@@ -292,6 +292,8 @@ footer section p{
     display: none;
 }
 
+
+
 @media (min-width: 600px){
     
     /******* HEADRER sectie MEDIA 600px *****/
@@ -394,18 +396,18 @@ footer section p{
     }
     
     .middle-section a h3{
-       font-size: 1.1em;
-       margin-top: 1em;
+        font-size: 1.1em;
+        margin-top: 1em;
         width: 32vw;
         font-weight: 700;
     }   
     
     .middle-section article p{
-    display: flex;
-    color: black;
-    font-weight: 400;
-    font-size: 1em; 
-    line-height: 1.5em;    
+        display: flex;
+        color: black;
+        font-weight: 400;
+        font-size: 1em; 
+        line-height: 1.5em;    
 }
     
     /******* FOOTER MEDIA 600px *****/
@@ -438,26 +440,26 @@ footer section p{
     }
     
     .artikel ul{
-    list-style: none;
-    margin: 1em;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 0.7em;
-    font-weight: 800;
-    margin-right: 130px;
+        list-style: none;
+        margin: 1em;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 0.7em;
+        font-weight: 800;
+        margin-right: 130px;
     }
 
     .artikel ul li{
-    display: inline-block;
-    vertical-align: top;
+        display: inline-block;
+        vertical-align: top;
 }
 
     .artikel ul li a{
-    color: gray;
-}
+        color: gray;
+}    
 
     .artikel ul li a:hover{
-    color: red;
+        color: red;
     }
     
     .artikel h1{
@@ -470,69 +472,38 @@ footer section p{
     .artikel p{
         margin: auto;
         width: 550px;
-        font-size: 1.1em;
-        font-weight: 400;
-        
+        font-size: 1em;
+        font-weight: 400;  
     }
     
 }
-
-
-
 
 @media (min-width: 900px){    
     
     /******* bovenste sectie MEDIA 900px *****/
     
     .Bovenste-sectie{
-        display: flex;
-        flex-direction: row;
         height: 55vh;    
 }
     
     h2{
         font-size: 1.8em;
-        color: white;
-        position: absolute;
-        bottom: 0;
-        margin: 1em;
-        z-index: 2;    
+        margin: 1em;   
 }
     /******* middelste sectie MEDIA 900px *****/
 
     .middle-section{
-        display: grid;
         grid-template-columns: 25vw 25vw 25vw;
-        grid-column-gap: 2em;
         margin-left: 6em;
         margin-right: 6em;
-        justify-content: center;
-    }
-        
-    .middle-section article img {
-        width: 100%;
-        margin-right: 0 ;
-    }
-    
-    .middle-section article {
-        border: none;
-        
     } 
     
-    .middle-section a {
-        display: block;
-        border: none;      
-    }
-    
     .middle-section a h3{
-       font-size: 1.1em;
-       margin-top: 1em;
         width: 24vw;
-        font-weight: 700;
     }
     
     .middle-section a h3:hover{
-       color: red;
+        color: red;
         transition: 0.55s;
     }
     
@@ -545,18 +516,9 @@ footer section p{
     
     /******* ARTIKEL MEDIA 900px *****/
     
-    
-    .img-artikel-bovenste{
-        display: none;
-    }
-    
-    
     .img-artikel{
-        display: block;
         height: 70%;
         width: 900px;
-        object-fit: cover;
-        margin: auto;
     }
         
     .artikel{
@@ -565,41 +527,17 @@ footer section p{
     }
     
     .artikel ul{
-    list-style: none;
-    margin: 1em;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 0.7em;
-    font-weight: 800;
-    margin-right: 280px;
-    }
-
-    .artikel ul li{
-    display: inline-block;
-    vertical-align: top;
-}
-
-    .artikel ul li a{
-    color: gray;
-}
-
-    .artikel ul li a:hover{
-    color: red;
+        margin-right: 280px;
     }
     
     .artikel h1{
-        margin: auto;
         width: 700px;
         font-size: 3em;
-        margin-bottom: 1.5em;
     }
     
     .artikel p{
-        margin: auto;
         width: 700px;
         font-size: 1.1em;
-        font-weight: 400;
-        
     }   
 } 
 
