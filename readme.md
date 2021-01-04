@@ -76,8 +76,8 @@ em / vw /vh in plaats van px */
 
 **Screenshot(s) van de eerste pagina (small screen):**
 
- <img src="images/NOS-pagina1.png" width="350" title="NOS-Home">
+ <img src="images/NOS-pagina1.png">
 
 **Screenshot(s) van de tweede pagina (small screen):**
 
-<img src="images/NOS-pagina3.png" width="350" title="NOS-Artikel">
+<img src="images/NOS-pagina2.png">
